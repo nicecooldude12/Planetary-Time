@@ -1,0 +1,15 @@
+Package: Friedman
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person(Killian, Williams, , kwilliams@usf.edu, role = c("aut", "cre"))
+Description: Devtools is meant to make package creation easier. Every programming language have this open source
+contribution that makes projects easier. It would be really impressive if a student were to create their own
+package.
+License: CC0
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Depends:R (>= 3.1.2)
+Imports: ggplot2, dplyr
+LazyData: true
