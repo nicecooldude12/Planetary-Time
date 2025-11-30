@@ -23,23 +23,22 @@ planetary_hours <- function(day, time){
   
   hhmm_to_min <- function(x) (x %/% 100) * 60 + (x %% 100)
   
-  t_min  <- hhmm_to_min(time)
+  user_min  <- hhmm_to_min(time)
   
   # Based upon EST
   sunrise_min <- hhmm_to_min(600) 
   ph_len <- 60              
 
-  
-
-  pass <- t_min - sunrise_min
+  pass <- user_min - sunrise_min
   hour_index <- floor(pass / ph_len) + 1
   hour_index <- ((hour_index - 1) %% 24) + 1
   
   ruler_of_hour <- planetary_table[[day]][hour_index]
   ruler_of_day  <- day_ruler[[day]]
   
-  paste0("Planetary Ruler: ",ruler_of_day," Planetary Hour: ", ruler_of_hour)
+  paste0("Planetary Ruler: ",ruler_of_day,", Planetary Hour: ", ruler_of_hour)
 }
 
 
-planetary_hours("Wednesday", 2208)
+# Example use: planetary_hours("Wednesday", 2208)
+
