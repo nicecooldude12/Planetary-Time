@@ -42,4 +42,5 @@ planetary_hours <- function(day, time){
 }
 
 
-planetary_hours("Wednesday", 2208)
+#Example Use: planetary_hours("Wednesday", 2208)
+
