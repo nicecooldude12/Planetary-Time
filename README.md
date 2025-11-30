@@ -1,7 +1,5 @@
 # Planetary-Time
-The stars in the sky was once believed (and still is for some) to determine the world events in ways that was violatile. Thales used Astrology to go from poverty to generational wealth by placing money on Olive harvesters when there was no demand for Olive pressers, but when the season demand soared and it was all on the terms of Thales. (this is called Options Trading... without the Astrology of course)
-
-Before advanced telescopes were invented, only Seven planets were known to the ancient world. These Seven Planets, or known as the Chaldean Order, played a major role in high society from the Babylonians, Egypt, Greece etc.
+The stars in the sky was once believed (and still is for some) to determine world events. Before advanced telescopes were invented, only Seven planets were known to the ancient world. These Seven Planets, or known as the Chaldean Order, played a major role in high society from the Babylonians, Egypt, Greece etc. 
 
 The Chaldean Order goes as follows:
     Sunday    = Sun,
