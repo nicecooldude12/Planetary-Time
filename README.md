@@ -16,8 +16,9 @@ And each hour of the day have their own ruler as well:
 <img width="800" height="316" alt="Screenshot 2025-11-28 135846" src="https://github.com/user-attachments/assets/a2b7f7bc-985d-46bf-9a57-a8a9cffeb6bf" />
 Source: https://en.wikipedia.org/wiki/Planetary_hours
 
-The code simply takes in the users input of Day and Time (24-Hour format). The purpose of Planetary Timing can be used in a variety of ways. One of the most common use in Occult tradition is to find the optimal time to execute a ritual.
+The code uses the crime.csv dataset, 'Crimes in Boston' from Kaggle, which is used to create the results from the planetary_time() function. The function only needs the day and time (24 hour) ie planetary_time("Friday", 1130). 
 
-Now anyone can use this old European system in a variety of ways, whether that be a skeptic wanting to see if there's any correlations, or someone who wants to use it in its original purpose.
+The real purpose of Planetary Timing can be used in a variety of ways. One of the most common use in Occult tradition is to find the optimal time to execute a ritual. That ritual being the methods written by Johannes Trithemius 'The art of drawing spirits into crystals'. Written between 1462 - 1516, he established the idea of timing rituals based the time and day in which an Angel/Planet is at its most influential. These deities are the Angels in the Judeo-Christian religion that rule over these celestial bodies. These Angels are then made visibile in a crystial to for example, obtainin material wealth, enhancing ones own negotiation skills, contemplating on the mysteries of the universe, etc. If you wish to read the book itself: https://www.esotericarchives.com/tritheim/trchryst.htm
+
 
 Write up: https://rprogramming21.wordpress.com/2025/11/26/planetary-hours-project/
