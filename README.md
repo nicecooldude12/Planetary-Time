@@ -4,12 +4,12 @@ The stars in the sky was once believed (and still is for some) to determine the 
 Before advanced telescopes were invented, only Seven planets were known to the ancient world. These Seven Planets, or known as the Chaldean Order, played a major role in high society from the Babylonians, Egypt, Greece etc.
 
 The Chaldean Order goes as follows:
-    Sunday    = Sun
-    Monday    = Moon
-    Tuesday   = Mars
-    Wednesday = Mercury
-    Thursday  = Jupiter
-    Friday    = Venus
+    Sunday    = Sun,
+    Monday    = Moon,
+    Tuesday   = Mars,
+    Wednesday = Mercury,
+    Thursday  = Jupiter,
+    Friday    = Venus,
     Saturday  = Saturn
 
 And each hour of the day have their own ruler as well:
