@@ -9,13 +9,14 @@ Planetary Day: Sun
 Planetary Hour: Jupiter
 
 The Chaldean Order goes as follows:
-    Sunday    = Sun,
-    Monday    = Moon,
-    Tuesday   = Mars,
-    Wednesday = Mercury,
-    Thursday  = Jupiter,
-    Friday    = Venus,
-    Saturday  = Saturn
+    
+| Sunday | Sun |
+| Monday | Moon |
+|Tuesday | Mars |
+| Wednesday | Mercury |
+| Thursday | Jupiter |
+| Friday | Venus |
+| Saturday | Saturn |
 
 And each hour of the day have their own ruler as well:
 <img width="800" height="316" alt="Screenshot 2025-11-28 135846" src="https://github.com/user-attachments/assets/a2b7f7bc-985d-46bf-9a57-a8a9cffeb6bf" />
