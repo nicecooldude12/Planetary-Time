@@ -13,7 +13,7 @@ planetary_hours(
 )
 ```
 
-Example output supplied with the project:
+Example output:
 
 ```text
 Planetary Day: Sun
