@@ -1,5 +1,5 @@
 # Planetary-Time
-This R Package is able accurately calculate the Planetary ruler of the day and hour regardless of location. This was made with a dataset usage in mind by allowing Planetary-Time able to read past dates.
+This **SOON TO BE** R Package is able accurately calculate the Planetary ruler of the day and hour regardless of location. This was made with a dataset usage in mind by allowing Planetary-Time able to read past dates.
 
 ## Example usage
 
