@@ -1,5 +1,12 @@
 # Planetary-Time
-This project is able accurately calculate the Planetary ruler of the day and hour regardless of location.
+This R Package is able accurately calculate the Planetary ruler of the day and hour regardless of location.
+
+# Example use case
+planetary_hours("2018-09-02", "19:27", timezone = "Africa/Nairobi", latitude = -1.2921, longitude = 36.8219)
+
+**Output**
+Planetary Day: Sun
+Planetary Hour: Jupiter
 
 The Chaldean Order goes as follows:
     Sunday    = Sun,
