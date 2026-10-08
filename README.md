@@ -1,5 +1,5 @@
 # Planetary-Time
-The stars in the sky was once believed (and still is for some) to determine world events. Before advanced telescopes were invented, only Seven planets were known to the ancient world. These Seven Planets, or known as the Chaldean Order, played a major role in high society from the Babylonians, Egypt, Greece etc. 
+This project is able accurately calculate the Planetary ruler of the day and hour regardless of location.
 
 The Chaldean Order goes as follows:
     Sunday    = Sun,
