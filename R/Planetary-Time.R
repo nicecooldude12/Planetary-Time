@@ -74,7 +74,6 @@ chaldean_order <- c("Saturn", "Jupiter", "Mars", "Sun", "Venus", "Mercury", "Moo
 # Produce the complete 24-hour timetable for a local planetary date.
 # The timetable starts at that date's sunrise and ends at next sunrise.
 #' @export
-
 planetary_schedule <- function(date, timezone, latitude, longitude) {
   .check_location(timezone, latitude, longitude)
   date <- as.Date(date)
@@ -110,6 +109,7 @@ planetary_schedule <- function(date, timezone, latitude, longitude) {
 # source_timezone: where the input clock readings were recorded.
 # timezone: where the planetary hours are being calculated.
 # For different locations, call this function separately for each location.
+#' @export
 planetary_hours <- function(timestamp, time = NULL, timezone,
                             latitude, longitude, source_timezone = timezone,
                             on_error = c("stop", "NA")) {
@@ -175,6 +175,7 @@ planetary_hours <- function(timestamp, time = NULL, timezone,
 }
 
 # Attach ruler columns to any data frame containing a timestamp column.
+#' @export
 add_planetary_info <- function(data, timestamp_column, timezone,
                                latitude, longitude, source_timezone = timezone,
                                on_error = "NA") {
