@@ -1,6 +1,3 @@
-library(suncalc)
-library(clock)
-
 day_rulers <- c("Sun", "Moon", "Mars", "Mercury", "Jupiter", "Venus", "Saturn")
 chaldean_order <- c("Saturn", "Jupiter", "Mars", "Sun", "Venus", "Mercury", "Moon")
 
@@ -76,6 +73,8 @@ chaldean_order <- c("Saturn", "Jupiter", "Mars", "Sun", "Venus", "Mercury", "Moo
 
 # Produce the complete 24-hour timetable for a local planetary date.
 # The timetable starts at that date's sunrise and ends at next sunrise.
+#' @export
+
 planetary_schedule <- function(date, timezone, latitude, longitude) {
   .check_location(timezone, latitude, longitude)
   date <- as.Date(date)
