@@ -1,14 +1,24 @@
-Package: PlantaryTime
-Title: Outputs the Planetary day and hour.
+Package: PlanteryTime
+Title: Calculate Location-Based Planetary Days and Hours
 Version: 0.0.0.9000
 Authors@R: 
-    person(Killian, Williams, , kwilliams@usf.edu, role = c("aut", "cre"))
-Description: The package uses Johannes Trithemius 'The art of drawing spirits into crystals' method of 
-determing the Planetary ruler of every hour and day. This is done by simply taking the input of a Day and time
-by returning the Planet ruling that particular day and hour.
+    person(
+        given = "Killian",
+        family = "Williams",
+        email = "williamskillian@outlook.com",
+        role = c("aut", "cre")
+    )
+Description: Calculates planetary day and hour rulers from timestamps,
+    geographic coordinates, and time zones. Divides daylight and nighttime
+    into twelve intervals each using calculated sunrise and sunset times.
+    Provides functions for generating schedules and adding planetary
+    classifications to timestamped datasets.
 License: CC0
 Encoding: UTF-8
+Imports:
+    clock,
+    suncalc
+URL: https://github.com/nicecooldude12/Planetary-Time
+BugReports: https://github.com/nicecooldude12/Planetary-Time/issues
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
-Depends:R (>= 3.1.2)
-LazyData: true
